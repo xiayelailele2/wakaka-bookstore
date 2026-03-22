@@ -1,0 +1,33 @@
+sky:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    host: localhost
+    port: 3306
+    database: sky_take_out
+    username: root
+    password: 123456
+
+  alioss:
+    endpoint: oss-cn-beijing.aliyuncs.com
+    access-key-id:               #  阿里云账号的AccessKey ID
+    access-key-secret:             # 阿里云账号的AccessKey Secret
+    bucket-name:           # 存储空间名称
+  redis:
+    host: localhost
+    port: 6379
+    database: 1
+  wechat:
+    app-id:             # 你的微笑小程序appid
+    app-secret:       # 你的微笑小程序sercret key
+#    mchid: 1561414331 #传智播客申请的商户号
+#    mchSerialNo: 4B3B3DC35414AD50B1B755BAF8DE9CC7CF407606 #证书的序列号
+#    privateKeyFilePath: D:\apiclient_key.pem #私钥文件（不是企业 没有）
+#    apiV3Key: CZBK51236435wxpay435434323FFDuv3 #解密的秘钥（商户平台设置 一般公司提供好不用自己手动配置）
+#    weChatPayCertFilePath: D:\wechatpay_166D96F876F45C7D07CE98952A96EC980368ACFC.pem #平台证书文件
+#    notifyUrl: https://www.weixin.qq.com/wxpay/pay.php #支付成功的回调（域名地址+controller的访问路径）
+#    refundNotifyUrl: https://www.weixin.qq.com/wxpay/pay.php #退款成功的回调
+  shop:
+    address: 123456789
+  baidu:
+    ak:  # 百度地图的ak
+
